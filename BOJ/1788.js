@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 let input = Number(fs.readFileSync('/dev/stdin').toString().trim());
-const MOD_BILLION = 1000000000n;
+const MOD_BILLION = 1000000000;
 
 let fibo = [0 , 1]; // 0 1 1 2 3 5 8
 // let fiboMinus = [0 , 1];  0 1 -1 2 -3 5 -8 13 -21
