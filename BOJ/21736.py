@@ -33,15 +33,15 @@ while (idx < n*m):
         i = idx
 
     if idx % m != 0:
-        if lines[idx + 1] == "O" or lines[idx + 1] == "P":
+        if lines[idx + 1] != "X":
             graph[idx].append(idx + 1)
             graph[idx + 1].append(idx)
 
-    if idx >= n*m - m:
+    if idx > n*m - m:
         idx += 1
         continue
 
-    if lines[idx + m] == "O" or lines[idx + m] == "P":
+    if lines[idx + m] != "X":
         graph[idx].append(idx + m)
         graph[idx + m].append(idx)
 
