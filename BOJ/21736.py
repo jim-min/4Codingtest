@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(10**6)
+
 def dfs(v):
     global visited, lines, howmany
     visited[v] = True
