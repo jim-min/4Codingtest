@@ -1,3 +1,5 @@
+# Gold IV
+
 n = int(input())
 first = 3
 until = first
