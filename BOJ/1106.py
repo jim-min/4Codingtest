@@ -29,19 +29,24 @@ import sys
 
 c, n = map(int, sys.stdin.readline().split())
 hotels = {}
+the_cheapest = [0] * (100001)
+
 for _ in range(n):
-    cost, people = map(int, sys.stdin.readline().split())
-    if cost not in hotels or hotels[cost] < people:
-        hotels[cost] = people 
+    l, m = map(int, sys.stdin.readline().split())
 
-MAX_COST = 100000 
-the_cheapest = [0] * (MAX_COST + 1)
+    if l not in hotels:
+        hotels[l] = m
 
-for cost in hotels:
-    for i in range(cost, MAX_COST + 1):
-        the_cheapest[i] = max(the_cheapest[i], the_cheapest[i - cost] + hotels[cost])
+    else:
+        if hotels[l] < m:
+            hotels[l] = m
 
-for i in range(MAX_COST + 1):
+for i in range(1, 100001):
+    for j in hotels:
+        if the_cheapest[i] < the_cheapest[i-j] + hotels[j] and i-j >= 0:
+            the_cheapest[i] = the_cheapest[i-j] + hotels[j]
+
+for i in range(len(the_cheapest)):
     if the_cheapest[i] >= c:
         print(i)
         break
