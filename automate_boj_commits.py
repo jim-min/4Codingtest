@@ -115,7 +115,11 @@ def main():
         problem_id = match.group(1)
         
         print(f"Processing {filename} (Problem ID: {problem_id})...")
+        
+        last_commit_msg = get_last_commit_message(file_path)
             
+        # TODO : 이미 잘 되어있는 건 새로 Commit 하지 않게 하자
+
         problem_info = fetch_problem_info(problem_id)
         if not problem_info:
             print(f"  Skipping {filename}: Could not fetch problem info.")
