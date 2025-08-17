@@ -19,4 +19,4 @@ for i in range(amount):
     if not word_wrong:
         answer += 1
         
-print(answer)
+print(answer)
