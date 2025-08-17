@@ -43,3 +43,4 @@ for i in range(n):
 
 for i in graph:
     print(*i)
+
