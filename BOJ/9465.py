@@ -26,3 +26,4 @@ for _ in range(n):
                           max(best_up[i-2], best_down[i-2]) + li[i-1][1])
     
     print(max(best_up[cols], best_down[cols]))
+
