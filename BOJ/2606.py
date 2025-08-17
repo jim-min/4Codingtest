@@ -30,3 +30,4 @@ while True:
     con_index += 1
     
 print(len(connected_with) - 1)
+
