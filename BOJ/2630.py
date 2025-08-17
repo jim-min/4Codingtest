@@ -69,3 +69,4 @@ if wit:
 
 print(white_paper_count)
 print(blue_paper_count)
+
