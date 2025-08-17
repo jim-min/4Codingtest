@@ -19,3 +19,4 @@ for i in times:
         ans += 1
 
 print(ans)
+
