@@ -7,3 +7,4 @@ if sum(candyz) >= care_time :
     
 else:
     print("Padaeng_i Cry")
+
