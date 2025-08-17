@@ -28,4 +28,6 @@ def nqueen(num):
         
 nqueen(0)
 print(total)
+
+
 
