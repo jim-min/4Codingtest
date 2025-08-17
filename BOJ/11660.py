@@ -34,3 +34,4 @@ for _ in range(m):
         ans = graph[x2 - 1][y2 - 1] - graph[x1 - 2][y2 - 1] - graph[x2 - 1][y1 - 2] + graph[x1 - 2][y1 - 2]
 
     print(ans)
+
