@@ -86,3 +86,4 @@ else:
         if pairs == 2:
             # 2페어
             print(300 + paired[1] *10 + paired[0])
+
