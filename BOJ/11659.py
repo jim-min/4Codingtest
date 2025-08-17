@@ -19,4 +19,6 @@ for _ in range(m):
     i, j = map(int, sys.stdin.readline().split())
 
     print(accumulated_sum[j] - accumulated_sum[i - 1])
+
+
 
