@@ -32,4 +32,6 @@ for _ in range(n):
 
     elif command[0] == 'add':
         answer_set.add(int(command[1]))
+
+
 
