@@ -20,3 +20,4 @@ if checCon==ppls[scrs[1]][0]:
         cnt+=1
         
 print(ppls[scrs[cnt][0]][0], ppls[scrs[cnt][1][1]])
+
