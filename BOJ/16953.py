@@ -52,3 +52,4 @@ while (q):
 
 if not printed:
     print(-1)
+
