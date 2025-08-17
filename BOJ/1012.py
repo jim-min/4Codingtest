@@ -35,4 +35,3 @@ for _ in range(tc):
                 ans += 1
 
     print(ans)
-                
