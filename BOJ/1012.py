@@ -34,4 +34,4 @@ for _ in range(tc):
                 dfs(i, j)
                 ans += 1
 
-    print(ans)
+    print(ans)
