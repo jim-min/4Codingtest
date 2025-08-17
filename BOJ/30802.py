@@ -13,4 +13,6 @@ for i in shirts:
 print(result)
 
 print(n//p, n%p)
+
+
 
