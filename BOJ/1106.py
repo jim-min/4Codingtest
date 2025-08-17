@@ -50,3 +50,4 @@ for i in range(len(the_cheapest)):
     if the_cheapest[i] >= c:
         print(i)
         break
+
