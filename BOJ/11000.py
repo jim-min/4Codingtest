@@ -19,4 +19,4 @@ for i in q:
     else:
         heapq.heappush(hq, i[1])
 
-print(len(hq))
+print(len(hq))

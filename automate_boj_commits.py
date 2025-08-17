@@ -62,7 +62,7 @@ def fetch_problem_info(problem_id):
         return None
 
 def create_commit_message(problem_info):
-    title = problem_info.get("title", "Unknown Title")
+    title = problem_info.get("titleKo", "Unknown Title")
     level = problem_info.get("level", 0)
     tags = [tag["displayNames"][0]["name"] for tag in problem_info.get("tags", []) if tag.get("displayNames")]
     
@@ -115,12 +115,6 @@ def main():
         problem_id = match.group(1)
         
         print(f"Processing {filename} (Problem ID: {problem_id})...")
-        
-        last_commit_msg = get_last_commit_message(file_path)
-        if last_commit_msg and last_commit_msg.startswith('[') and ']' in last_commit_msg:
-            print(f"  Skipping {filename}: Already has a formatted commit message.")
-            skipped_files.append(filename)
-            continue
             
         problem_info = fetch_problem_info(problem_id)
         if not problem_info:

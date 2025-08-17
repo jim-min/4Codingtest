@@ -8,4 +8,6 @@ for i in range(4, 12):
 for _ in range(t):
     n = int(input())
     print(dp[n])
+
+
 

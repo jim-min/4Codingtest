@@ -10,3 +10,4 @@ for i in range(4, 1000001):
 for _ in range(n):
     t = int(input())
     print(dp[t])
+

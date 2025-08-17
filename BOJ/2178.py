@@ -27,3 +27,4 @@ while q:
                 graph[xx][yy] = graph[x][y] + 1
 
 print(graph[n-1][m-1])
+

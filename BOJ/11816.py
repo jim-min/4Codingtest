@@ -30,3 +30,4 @@ elif n[0] == '0':
 
 else:
     print(int(n))
+

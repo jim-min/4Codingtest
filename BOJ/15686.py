@@ -44,3 +44,4 @@ for k in combinations(com, m):
         ans = least
 
 print(ans)
+

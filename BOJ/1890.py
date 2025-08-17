@@ -20,4 +20,4 @@ for i in range(n):
             if j + jump <= n - 1:
                 jumpable[i][j+jump] += jumpable[i][j]
 
-print(jumpable[n-1][n-1])
+print(jumpable[n-1][n-1])

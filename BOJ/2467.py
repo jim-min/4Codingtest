@@ -27,4 +27,6 @@ while (len(liquid) > 1):
             a, b = first, liquid[mid]
 
 print(a, b)
+
+
 

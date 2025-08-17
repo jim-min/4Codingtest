@@ -30,4 +30,6 @@ while (n != 0):
             break
 
     n = int(sys.stdin.readline())
+
+
 
