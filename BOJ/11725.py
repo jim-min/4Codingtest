@@ -26,4 +26,6 @@ dfs(1)
 
 for j in range(2, n + 1):
     print(parent_nodes[j])
+
+
 
