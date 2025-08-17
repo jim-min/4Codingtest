@@ -21,3 +21,4 @@ while queue:
             time[i] = time[key] + 1
 
 print(time[b])
+

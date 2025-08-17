@@ -13,3 +13,4 @@ for idx, _ in enumerate(rgbs):
     ans[idx + 1][2] = min(ans[idx][1], ans[idx][0]) + rgbs[idx][2]
 
 print(min(ans[n][0], ans[n][1], ans[n][2]))
+

@@ -12,3 +12,4 @@ n, m = map(int, input().split())
 for i in range(1, n + 2 - m):
     arr = [i] * m
     back(i, 1)
+

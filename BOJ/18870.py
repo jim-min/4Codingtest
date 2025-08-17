@@ -27,3 +27,4 @@ for k in idx_li:
         print(k[0])
     else:
         print(k[0], end=" ")
+

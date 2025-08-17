@@ -13,4 +13,4 @@ for i in range(2, n + 1):
 
     arr.append(mint + 1)
     
-print(arr[n])
+print(arr[n])

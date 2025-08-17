@@ -21,3 +21,4 @@ while lowest <= highest:
     highest = mid - 1
 
 print(highest)
+
