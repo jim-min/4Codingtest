@@ -25,3 +25,4 @@ for i in range(len(tokens)):
 stmt = ''.join(tokens)
 
 print(eval(stmt))
+
