@@ -10,3 +10,4 @@ for idx, _ in enumerate(costs):
         ans += costs[j]
 
 print(ans)
+
