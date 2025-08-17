@@ -21,4 +21,4 @@ for _ in range(n):
         print(1)  # 내접까지 고려해줘야 함
 
     elif dist < r1 + r2:
-        print(2)
+        print(2)
