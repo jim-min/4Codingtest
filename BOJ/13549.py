@@ -30,4 +30,6 @@ while (graph):
         time[a + 1] = time[a] + 1
 
 print(time[k])
+
+
 
