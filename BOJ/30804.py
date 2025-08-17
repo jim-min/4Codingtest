@@ -26,3 +26,4 @@ for i in range(n):
         maxsize = i - left + 1
 
 print(maxsize)
+
